@@ -1,0 +1,12 @@
+if we want to move our directories or files from windows to linux environment 
+intially we installed the sudo apt install openssh-server in our linux machine 
+then we are go to our local machine on shell prompt to where u want copy the files in directory to linux machine 
+by using our linux hostname and public ip 
+c:\pscp c:
+ome\path\to\a\file.txt user@remoteIP:\home\user
+ome\path
+ewname.txt
+follw the above example
+like i want to move my file sasender.ppk to linux machine 
+C:\Users\Admin\Downloads>scp sasender.ppk ubuntu@54.172.155.141:/home/ubuntu
+and go to check whethere file successfully copied or not in which u given directory 
